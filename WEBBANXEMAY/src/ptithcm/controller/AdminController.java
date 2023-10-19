@@ -54,7 +54,7 @@ public class AdminController {
 		logout_session.removeAttribute("admin");
 		return "redirect:/home/index.htm";
 	}
-	
+	//abc/abc/asdsad/sad
 	//index
 	@RequestMapping("ad/index")
 	public String ad_index(ModelMap model, HttpServletRequest req, HttpServletResponse response) {
